@@ -30,12 +30,11 @@ public class MenuButtonsManager : MonoBehaviour
             b.transform.DOScale(1, duration).SetDelay(i * delay).SetEase(ease);
         }
     }
-
-    // void OnEnable()
-    // {
-    //     HideButtons();
-    //     ShowButtons();
-    // }
+    void OnEnable()
+    {
+        HideButtons();
+        ShowButtons();
+    }
     void Awake()
     {
         HideButtons();
