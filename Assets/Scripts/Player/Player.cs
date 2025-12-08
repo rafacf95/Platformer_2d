@@ -85,14 +85,14 @@ public class Player : HealthBase
     {
         if (myRigidBody.velocity.y > 0)
         {
-            Debug.Log("moving up");
+            // Debug.Log("moving up");
             playerAnimator.SetBool("_grounded", false);
             playerAnimator.SetBool("_goingDown", false);
             playerAnimator.SetBool("_goingUp", true);
         }
         else if (myRigidBody.velocity.y < 0)
         {
-            Debug.Log("moving down");
+            // Debug.Log("moving down");
             playerAnimator.SetBool("_grounded", false);
             playerAnimator.SetBool("_goingUp", false);
             playerAnimator.SetBool("_goingDown", true);
