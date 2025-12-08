@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 2578002694647239020}
   - component: {fileID: 2578002694647239018}
   - component: {fileID: 7990675617532380009}
+  - component: {fileID: 7376013386506669545}
   m_Layer: 0
   m_Name: PFB_Coin
   m_TagString: Untagged
@@ -145,6 +146,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   compareTag: Player
+  duration: 0
+  scaleX: 0
+  scaleY: 0
+  ease: 0
+--- !u!95 &7376013386506669545
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578002694647239019}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f6f8884a6e7e83d45b930f9c580ce310, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2938049454232631944
 GameObject:
   m_ObjectHideFlags: 0

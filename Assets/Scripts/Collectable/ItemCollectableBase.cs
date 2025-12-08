@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ItemCollectableBase : MonoBehaviour
 {
+    [Header("Configuration")]
     public string compareTag = "Player";
 
     private void OnTriggerEnter2D(Collider2D collision)
