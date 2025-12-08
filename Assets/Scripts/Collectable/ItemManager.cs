@@ -1,35 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Core.Singleton;
+using TMPro;
 
-public class ItemManager : MonoBehaviour
+public class ItemManager : Singleton<ItemManager>
 {
     public int coins;
-
-    public static ItemManager Instance;
+    public TextMeshProUGUI coinText;
 
     private void Reset()
     {
         coins = 0;
+        coinText.text = "x " + ItemManager.Instance.coins.ToString();
     }
 
     public void AddCoin(int amount = 1)
     {
         coins += amount;
+        coinText.text = "x " + ItemManager.Instance.coins.ToString();
     }
 
-    void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
-    
     void Start()
     {
         Reset();
