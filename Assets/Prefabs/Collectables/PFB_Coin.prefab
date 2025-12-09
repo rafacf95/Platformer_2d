@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 2578002694647239018}
   - component: {fileID: 7990675617532380009}
   - component: {fileID: 7376013386506669545}
+  - component: {fileID: 8104223370147045986}
   m_Layer: 0
   m_Name: PFB_Coin
   m_TagString: Untagged
@@ -165,6 +166,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!210 &8104223370147045986
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578002694647239019}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 15
 --- !u!1 &2938049454232631944
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +247,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 14
+  m_SortingOrder: 15
   m_Sprite: {fileID: 21300000, guid: de085835d504f71449418b1ac8036134, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
