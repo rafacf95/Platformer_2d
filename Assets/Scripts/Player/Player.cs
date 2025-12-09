@@ -15,12 +15,15 @@ public class Player : HealthBase
     public float jumpForce = 10f;
 
     [Header("Animation Setup")]
-    public float jumpScaleY = 1.5f;
-    public float jumpScaleX = .5f;
-    public float duration = .3f;
-    public Ease ease = Ease.OutBack;
+    // public float jumpScaleY = 1.5f;
+    // public float jumpScaleX = .5f;
+    // public float duration = .3f;
+    // public Ease ease = Ease.OutBack;
     public Animator playerAnimator;
     public float playerSwipeDuration = .1f;
+    public string goingUp = "_goingUp";
+    public string goingDown = "_goingDown";
+    public string grounded = "_grounded";
 
     private float _currentSpeed;
 
@@ -92,31 +95,31 @@ public class Player : HealthBase
         if (myRigidBody.velocity.y > 0)
         {
             // Debug.Log("moving up");
-            playerAnimator.SetBool("_grounded", false);
-            playerAnimator.SetBool("_goingDown", false);
-            playerAnimator.SetBool("_goingUp", true);
+            playerAnimator.SetBool(grounded, false);
+            playerAnimator.SetBool(goingDown, false);
+            playerAnimator.SetBool(goingUp, true);
         }
         else if (myRigidBody.velocity.y < 0)
         {
             // Debug.Log("moving down");
-            playerAnimator.SetBool("_grounded", false);
-            playerAnimator.SetBool("_goingUp", false);
-            playerAnimator.SetBool("_goingDown", true);
+            playerAnimator.SetBool(grounded, false);
+            playerAnimator.SetBool(goingUp, false);
+            playerAnimator.SetBool(goingDown, true);
         }
         else
         {
-            playerAnimator.SetBool("_goingUp", false);
-            playerAnimator.SetBool("_goingDown", false);
-            playerAnimator.SetBool("_grounded", true);
+            playerAnimator.SetBool(goingUp, false);
+            playerAnimator.SetBool(goingDown, false);
+            playerAnimator.SetBool(grounded, true);
         }
     }
 
-    private void HandleScaleJump()
-    {
-        DOTween.Kill(myRigidBody.transform);
-        myRigidBody.transform.DOScaleY(jumpScaleY, duration).SetLoops(2, LoopType.Yoyo).SetEase(ease);
-        myRigidBody.transform.DOScaleX(jumpScaleX, duration).SetLoops(2, LoopType.Yoyo).SetEase(ease);
-    }
+    // private void HandleScaleJump()
+    // {
+    //     DOTween.Kill(myRigidBody.transform);
+    //     myRigidBody.transform.DOScaleY(jumpScaleY, duration).SetLoops(2, LoopType.Yoyo).SetEase(ease);
+    //     myRigidBody.transform.DOScaleX(jumpScaleX, duration).SetLoops(2, LoopType.Yoyo).SetEase(ease);
+    // }
 
     private void OnPlayerKill()
     {
