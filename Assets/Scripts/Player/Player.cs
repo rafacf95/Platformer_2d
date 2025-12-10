@@ -27,6 +27,7 @@ public class Player : HealthBase
 
     [Header("Setup")]
     public SOPlayerSetup soPlayerSetup;
+    public ParticleSystem particles;
     // public Animator playerAnimator;
 
     private float _currentSpeed;
@@ -37,6 +38,13 @@ public class Player : HealthBase
         OnKill += OnPlayerKill;
 
         _currentPlayer = Instantiate(soPlayerSetup.playerAnimator, transform);
+
+        if (soPlayerSetup.particles != null)
+        {
+            var aux = Instantiate(soPlayerSetup.particles, gameObject.transform);
+            aux.transform.position = gameObject.transform.position;
+            aux.Play();
+        }
     }
 
     private void Update()

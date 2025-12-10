@@ -17,4 +17,7 @@ public class SOPlayerSetup : ScriptableObject
     public string goingUp = "_goingUp";
     public string goingDown = "_goingDown";
     public string grounded = "_grounded";
+
+    [Header("Particle System")]
+    public ParticleSystem particles;
 }

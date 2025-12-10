@@ -21,3 +21,4 @@ MonoBehaviour:
   goingUp: _goingUp
   goingDown: _goingDown
   grounded: _grounded
+  particles: {fileID: 6127547655437260324, guid: 1ab8a0f4c74e3de4fa4d21374a833722, type: 3}
