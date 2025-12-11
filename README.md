@@ -38,16 +38,10 @@ desenvolvimento de jogos.
     cd Platformer_2d
     ```
 
-3.  Troque para a branch de desenvolvimento:
-
-    ``` bash
-    git checkout develop
-    ```
-
-4.  Abra o projeto no Unity Hub utilizando a versão correspondente à do
+3.  Abra o projeto no Unity Hub utilizando a versão correspondente à do
     repositório.
 
-5.  Pressione **Play** para rodar o jogo.
+4.  Pressione **Play** para rodar o jogo.
 
 ## Estrutura do Repositório
 
