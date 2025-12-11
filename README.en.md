@@ -11,10 +11,10 @@ The project implements classic 2D platformer mechanics, focusing on code organiz
 
 ### Main Features
 
--   Basic character movement\
--   2D collision system\
--   Organized structure for project expansion\
--   Assets and scripts prepared for game evolution\
+-   Basic character movement
+-   2D collision system
+-   Organized structure for project expansion
+-   Assets and scripts prepared for game evolution
 
 ## Technologies and Tools Used
 
