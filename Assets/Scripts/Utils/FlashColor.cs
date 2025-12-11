@@ -12,10 +12,10 @@ public class FlashColor : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            Flash();
-        }
+        // if (Input.GetKeyDown(KeyCode.A))
+        // {
+        //     Flash();
+        // }
 
         if (spriteRenderers.Count == 0)
         {
