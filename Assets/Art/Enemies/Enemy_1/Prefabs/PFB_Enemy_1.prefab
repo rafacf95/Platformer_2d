@@ -99,8 +99,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 9196861913604587219}
   m_Bounds:
-    m_Center: {x: -0.39238596, y: -2.1021361, z: 0}
-    m_Extent: {x: 0.3461604, y: 0.14425349, z: 0}
+    m_Center: {x: -0.38696933, y: -1.210011, z: 0}
+    m_Extent: {x: 0.3447305, y: 0.2259078, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &496726513364080185
@@ -202,10 +202,137 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 9072440100847685840}
   m_Bounds:
-    m_Center: {x: 0.14424133, y: -0.12601674, z: 0}
-    m_Extent: {x: 0.51411974, y: 0.57256997, z: 0}
+    m_Center: {x: -0.048828125, y: -0.16218466, z: 0}
+    m_Extent: {x: 0.51675737, y: 0.5749097, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
+--- !u!1 &1405320546159963995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8667826937936756128}
+  - component: {fileID: 2072266563024116033}
+  m_Layer: 0
+  m_Name: DeathSFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8667826937936756128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405320546159963995}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7406867918560971784}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2072266563024116033
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405320546159963995}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -3789830092579606047, guid: fe8e1fdca5184e44e9ec52671cbe68dc, type: 2}
+  m_audioClip: {fileID: 8300000, guid: fd25a15f9797641458336cccfb445343, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1866365451022742163
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,8 +433,8 @@ MonoBehaviour:
   - {fileID: 2824275231970500835}
   - {fileID: 6366582078689648173}
   m_Bounds:
-    m_Center: {x: -0.0024151802, y: 0.002145052, z: 0}
-    m_Extent: {x: 2.912585, y: 3.347855, z: 0}
+    m_Center: {x: -0.048642397, y: 0.008687496, z: 0}
+    m_Extent: {x: 2.9194064, y: 3.3576522, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &3090786764695304946
@@ -321,6 +448,7 @@ GameObject:
   - component: {fileID: 8073972946613542793}
   - component: {fileID: 2403329696302037006}
   - component: {fileID: 3862592517166317360}
+  - component: {fileID: 4667426871623603923}
   m_Layer: 0
   m_Name: PFB_Enemy_1
   m_TagString: Untagged
@@ -348,6 +476,7 @@ Transform:
   - {fileID: 4811297239595550362}
   - {fileID: 8305536209930936756}
   - {fileID: 4016561117173749974}
+  - {fileID: 7406867918560971784}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -381,6 +510,19 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 15
+--- !u!114 &4667426871623603923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3090786764695304946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf8f42bf2dc34c4daa1c0867eeee65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 2072266563024116033}
 --- !u!1 &3840710139504160895
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,8 +652,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 8392671563515255418}
   m_Bounds:
-    m_Center: {x: -0.0000009536743, y: 0.00000071525574, z: 0}
-    m_Extent: {x: 0.48000008, y: 0.3300001, z: 0}
+    m_Center: {x: -0.26455927, y: 0.011315346, z: 0}
+    m_Extent: {x: 0.49767154, y: 0.3562779, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &3962506498721622758
@@ -634,6 +776,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6366582078689648173}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6388191760133307392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7406867918560971784}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7406867918560971784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6388191760133307392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8667826937936756128}
+  m_Father: {fileID: 8073972946613542793}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6892869075960067291
 GameObject:
@@ -769,8 +942,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 4031394395824172508}
   m_Bounds:
-    m_Center: {x: -0.00000047683716, y: 0.00000023841858, z: 0}
-    m_Extent: {x: 0.31000012, y: 0.40000013, z: 0}
+    m_Center: {x: -0.26983595, y: -0.059776545, z: 0}
+    m_Extent: {x: 0.33184326, y: 0.41667953, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &7898942523963494975
@@ -872,8 +1045,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 3224396904485084758}
   m_Bounds:
-    m_Center: {x: -0.23828125, y: -1.9787802, z: 0}
-    m_Extent: {x: 0.5250757, y: 0.11938512, z: 0}
+    m_Center: {x: -0.2402587, y: -1.1093605, z: 0}
+    m_Extent: {x: 0.52265733, y: 0.1870954, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &8420924669362092951
@@ -975,8 +1148,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 3224396904485084758}
   m_Bounds:
-    m_Center: {x: -0.00000071525574, y: 0.00000035762787, z: 0}
-    m_Extent: {x: 0.23500009, y: 0.40500003, z: 0}
+    m_Center: {x: -0.23425555, y: 0.016350627, z: 0}
+    m_Extent: {x: 0.25723976, y: 0.4174857, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &8832467829686930437
@@ -1078,8 +1251,8 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 9196861913604587219}
   m_Bounds:
-    m_Center: {x: -0.00000047683716, y: -0.00000071525574, z: 0}
-    m_Extent: {x: 0.21000005, y: 0.4100001, z: 0}
+    m_Center: {x: -0.23888636, y: -0.06784999, z: 0}
+    m_Extent: {x: 0.23255783, y: 0.4210825, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &8886475419310276185
