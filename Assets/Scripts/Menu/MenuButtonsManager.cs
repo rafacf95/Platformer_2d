@@ -25,7 +25,7 @@ public class MenuButtonsManager : MonoBehaviour
         for (int i = 0; i < buttons.Count; i++)
         {
             var b = buttons[i];
-            Debug.Log(b);
+            // Debug.Log(b);
             b.SetActive(true);
             b.transform.DOScale(1, duration).SetDelay(i * delay).SetEase(ease);
         }
