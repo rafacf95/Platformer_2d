@@ -23,9 +23,9 @@ desenvolvimento de jogos.
 
 ## Tecnologias e Ferramentas Utilizadas
 
--   Motor de jogo: Unity\
--   Linguagem: C#\
--   Git para controle de versão\
+-   Motor de jogo: Unity
+-   Linguagem: C#
+-   Git para controle de versão
 
 ## Como Baixar e Executar
 
